@@ -1,5 +1,7 @@
 ## FedSeIT: Federated Selective Inter-Client Transfer
 
+![Federated Selective Inter-client Transfer (FedSeIT)](./docs/FedSeIT.png?raw=true "Federated Selective Inter-client Transfer (FedSeIT)")
+
 This code repository contains the implementations of: (a) "**Federated Selective Inter-client Transfer (FedSeIT)**" framework, and (b) "**Selective Inter-client Transfer (SIT)**" method proposed in the paper titled: **["Federated Continual Learning for Text Classification via Selective Inter-client Transfer"](https://arxiv.org/abs/2210.06101)** accepted at **EMNLP2022** Conference in "Findings in EMNLP" track.
 
 ### Highlights of the FedSeIT paper
