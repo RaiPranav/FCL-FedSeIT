@@ -50,15 +50,23 @@ All configurable parameters for model training in FCL setting can be found in Fe
 ### How to cite this work
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2210.06101,
-  title = {Federated Continual Learning for Text Classification via Selective Inter-client Transfer},
-  author = {Chaudhary, Yatin and Rai, Pranav and Schubert, Matthias and Schütze, Hinrich and Gupta, Pankaj},
-  doi = {10.48550/ARXIV.2210.06101},
-  url = {https://arxiv.org/abs/2210.06101},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{chaudhary-etal-2022-federated,
+    title = "Federated Continual Learning for Text Classification via Selective Inter-client Transfer",
+    author = {Chaudhary, Yatin  and
+      Rai, Pranav  and
+      Schubert, Matthias  and
+      Sch{\"u}tze, Hinrich  and
+      Gupta, Pankaj},
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.353",
+    pages = "4789--4799",
+    abstract = "In this work, we combine the two paradigms: Federated Learning (FL) and Continual Learning (CL) for text classification task in cloud-edge continuum. The objective of Federated Continual Learning (FCL) is to improve deep learning models over life time at each client by (relevant and efficient) knowledge transfer without sharing data. Here, we address challenges in minimizing inter-client interference while knowledge sharing due to heterogeneous tasks across clients in FCL setup. In doing so, we propose a novel framework, Federated Selective Inter-client Transfer (FedSeIT) which selectively combines model parameters of foreign clients. To further maximize knowledge transfer, we assess domain overlap and select informative tasks from the sequence of historical tasks at each foreign client while preserving privacy. Evaluating against the baselines, we show improved performance, a gain of (average) 12.4{\%} in text classification over a sequence of tasks using five datasets from diverse domains. To the best of our knowledge, this is the first work that applies FCL to NLP.",
 }
+
 ```
 
 
